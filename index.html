@@ -3,24 +3,81 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>assiment-3</title>
     <!-- Daisy UI Section -->
      <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
 <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 <!-- Tailwind Section -->
    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-
+ 
    <!-- Google fonts style -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
- 
- 
-
+    <style>
+        .font-style {
+              font-family: "Manrope", sans-serif;
+        }
+    </style>
 </head>
 <body>
-     <header>
+     <header class="md:container mx-auto mt-10">
+       <nav>
+        <div class="navbar bg-base-100 ">
+  <div class="navbar-start">
+    <div class="dropdown">
+      <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"> <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /> </svg>
+      </div>
+      <ul
+        tabindex="-1"
+        class="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 ">
+        <li><a></a></li>
+        <li>
+          <a></a>
+          <ul class="p-2">
+            <li><a>Home</a></li>
+            <li><a>Services</a></li>
+            <li><a>Portfolio</a></li>
+            <li><a>Blogs</a></li>
+            <li><a>Contact Us</a></li>
+          </ul>
+        </li>
+        <li><a></a></li>
+      </ul>
+    </div>
+    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="" stroke="currentColor" class="size-4   bg-green-500 rounded-md ">
+  <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
+</svg>
 
+    <a class="btn btn-ghost text-xl font-bold font-style">Rinterio</a>
+  </div>
+  <div class="navbar-center hidden lg:flex">
+    <ul class="menu menu-horizontal px-1">
+      <li><a class="font bold">Home</a></li>
+      <li><a class="text-gray-400">Services</a></li>
+      <li><a  class="text-gray-400">Portfolio</a></li>
+      <li><a  class="text-gray-400">Blogs</a></li>
+      <li><a  class="text-gray-400">Contact Us</a></li>
+      <li>
+          
+      </li>
+      <li><a></a></li>
+    </ul>
+  </div>
+  <div class="navbar-end">
+    <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7 mr-5 item-center  border-white-500  rounded-2xl" fill="none" viewBox="0 0  27 27" stroke="gray"> <path stroke-linecap="round" stroke-linejoin="round" stroke-width="" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" /> </svg>
+
+     <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-5 " fill="none" viewBox="0 0 24 24" stroke="gray"> <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z" /> </svg>
+    <a class="btn">Book Consult 
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="black" class="size-4">
+  <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
+</svg>
+
+    </a>
+  </div>
+</div>
+       </nav>
 
      </header>
      <main>
@@ -29,7 +86,7 @@
      </main>
      <footer>
 
-        
+
      </footer>
 </body>
 </html>
